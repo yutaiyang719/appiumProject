@@ -1,0 +1,17 @@
+1	0		android.widget.TextView	click	-1	6	1	启动app
+3	0	execute_script	mobile: tap		959*888	2	1	跳过公告
+9	yh	find_elements_by_class_name	android.widget.Button	click	0	3	1	点击账号登录按钮
+10	0	execute_script	mobile: tap		1115*620	1	1	点击选择服务
+11	0	execute_script	mobile: tap		380*381	1	1	点击选择服务列表1-10
+12	0	execute_script	mobile: tap		813*522	1	1	点击选择1服
+13	0	execute_script	mobile: tap		958*752	6	1	点击进入游戏
+15	0	execute_script	mobile: tap		1762*853	8	1	点击开始
+51	0	execute_script	mobile: tap		1659*147	1	1	点击关闭充值界面
+54	0	execute_script	mobile: tap		916*54	1	1	点击充值入口
+55	0	execute_script	mobile: tap		581*376	2	1	点击30元月卡
+56	yh	execute_script	mobile: tap		1663*300	4	1	点击支付宝
+57	yh	execute_script	mobile: tap		138*155	2	1	点击返回
+58	yh	execute_script	mobile: tap		720*690	2	1	点击是
+59	yh	execute_script	mobile: tap		1861*71	2	1	点击关闭充值界面
+60	yh	keyevent		button	4	2	1	点击返回，退出游戏
+61	yh	execute_script	mobile: tap		1415*677	1	1	点击退出按钮
